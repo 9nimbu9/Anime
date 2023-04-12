@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+.card{
+    width: 25%;
+}
+.cards{
+    margin: auto;
+}
+.area{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.area1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

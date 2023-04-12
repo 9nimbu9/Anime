@@ -1,0 +1,174 @@
+body{
+    text-align: center;
+    background-color: #121214;
+    color: white;
+}
+input{
+    height: 45px;
+    border-radius: 7px 0 0 7px;
+    padding: 1rem;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 300px;
+}
+h1{
+    font-family: 'McLaren', cursive;
+}
+h3{
+    font-size: 250%;
+    color: #87A2FB;
+    /* font-weight:700; */
+    font-family: 'Raleway', sans-serif;
+    font-style: bold;
+}
+.detailImg{
+    margin: 5%;
+}
+.detailSide{
+    color: #7b36ce;
+    font-weight: 500;
+}
+
+.button{
+    border: none;
+    background-color: #7b36ce;
+    color: white;
+    width: 90px;
+    height: 45px;
+    border-radius:0 7px 7px 0;
+    margin: auto;
+    font-size: 120%;
+}
+.link{
+    /* margin-left: 1%; */
+    padding: 0.5%;
+}
+.button:hover{
+    transition-duration: 150ms;
+    background-color: #40018e;
+}
+.heading{
+    background-color:black;
+    padding: 0.5%;
+}
+.cardName{
+    padding: 2%;
+}
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+.aImage{
+    border: 2px solid #7b36ce;
+}
+.aImage:hover{
+    filter: brightness(40%);
+    transition-duration: 300ms;
+}
+.title{
+    text-align: left;
+    width: 90px;
+    height: 90px;
+}
+.h{
+    font-size: 120%;
+    margin: auto 1.25%;
+    padding: 2%;
+}
+.cards{
+    width: 200px;
+    height: 300px;
+    margin: 0.75% auto 10% auto;
+    flex-basis: 20%;
+}
+.area{
+    display: flex;
+    margin: 1.5% auto auto auto;
+    flex-wrap: wrap;
+}
+a{
+    color: white;
+}
+a:hover{
+    transition-duration: 200ms;
+    color: #7b36ce;
+}
+a:link{
+    text-decoration: none;
+}
+.col-lg-2{
+    margin-top: 3%;
+    padding: 2%;
+}
+.col-lg-7{
+    margin-top: 3%;
+    text-align: left;
+    padding: 2% 7% 2% 7%;
+}
+.col2nd{
+    text-align: left;
+    padding: 25% 15px;
+    background-color: black;
+}
+.detailMain{
+    font-size: 145%;
+    color: #E94560;
+    font-weight: 500;
+}
+.areas{
+    display:inline-block;
+    margin: 0.5% 0.5%
+}
+.nav-link:hover{
+    color: #7b36ce;
+}
+.nav-link{
+        color: white;
+}
+.toggle{
+    background-color: #7b36ce;
+}
+.toggle:hover{
+    background-color:#40018e
+}
+.homeTitle{
+    text-align: left;
+    margin: 5% auto 0 0.5%;
+}
+.watchLink{
+    color: #7b36ce;
+}
+.watchLink:hover{
+    color: #40018e;
+}
+.genreName{
+    display: inline-block;
+    padding: 2.5%;
+    margin: 3%;
+    border: 1.5px solid #E94560;
+    border-radius: 10px;
+}
+.streaming:hover{
+    filter: contrast(2);
+}
+.pageButton{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgb(111, 106, 106) ;
+    color: white;
+}
+.pageButton:hover{
+    background-color: #40018e;
+    transition-duration: 500ms;
+}
+/* .recommend{
+    text-align: left;
+    position: absolute;
+    left: 65%;
+    padding: 1%;
+    background-color: black;
+    border-bottom: white;
+} */
